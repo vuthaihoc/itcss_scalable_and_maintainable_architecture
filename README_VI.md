@@ -1,19 +1,18 @@
 -------------------------------------
-# Raw post: [https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
-
-English version!!
+# Bài viết mẫu: [https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
+Bản tiếng việt!!
 -------------------------------------
-## ITCSS: SCALABLE AND MAINTAINABLE CSS ARCHITECTURE 
-by Lubos Kmetko on February 10, 2016 
-### How do I make my CSS scalable and maintainable? It’s a concern for every front-end developer. ITCSS has an answer.
+## ITCSS: Bảo trì và mở rộng kiến trúc css 
+viết bởi Lubos Kmetko ngày 10 tháng 2, 2016 
+### Tôi phải làm sao để duy trì và mở rông Css của mình? Đây là điều mà các lập trình viên front-end luôn quan tâm. ITCSS có 1 câu trả lời cho vấn đề này.
 
-Last year when we started to plan our [HEROized](https://www.heroized.com/) redesign and new Xfive.co website, I was looking for a CSS architecture which would allow for easy website development and further maintenance.
+Năm ngoái, khi chúng tôi bắt đầu dự án [HEROized](https://www.heroized.com/), thiết kế lại và làm mới 1 số phần của trang web [Xfive.co], chúng tôi tìm kiếm 1 kiến trúc CSS có khả năng phát triển dễ dàng và có thể bảo trì về sau.
 
-[CSS Modules](http://www.sitepoint.com/understanding-css-modules-methodology/) were quite young and exotic at that time and I’ve always considered the [Atomic Design](http://patternlab.io/) chemistry analogy to be a bit artificial. Then I came across [Roberts’s](https://csswizardry.com/)  ITCSS in the June 2015 issue of the  [net magazine](https://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731) and immediately fell in love with this simple, down to earth CSS approach.
+[CSS Modules](http://www.sitepoint.com/understanding-css-modules-methodology/) là một cái gì đó mới và khá kì lạ lúc bấy giờ, và chúng tôi đã lưu ý về [Thiết kế phân tử](http://patternlab.io/) đại loại như một phân tử hoá học nhân tạo. Sau đó tôi tham gia hội thảo [Roberts’s](https://csswizardry.com/)  ITCSS vào tháng 6/2015, vấn đề của  [tạp chí mạng internet](https://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731) và ngay lập tức tôi tìm thấy giải pháp đơn giản, cách tiếp cận CSS thực tế nhất.
 
- ### What is ITCSS?
- ITCSS stands for Inverted Triangle CSS and it helps you to organize your project CSS files in such way that you can better **deal with** (not always easy-to-deal with) CSS specifics like **global namespace, cascade and selectors specificity.**.
-ITCSS can be used with preprocessors or without them and is compatible with CSS methodologies like BEM, SMACSS or OOCSS.
+ ### Vậy ITCSS là gì?
+ ITCSS là cụm từ viết tắt của "Inverted Triangle CSS" và nó giúp bạn tổ chức các file CSS trong dự án một cách tốt nhất mà bạn có thể **gặp phải** (không phải những vấn đề thường gặp phải) đối với CSS cụ thể như **global namespace, cascade và các đối tượng cụ thể.**.
+ITCSS can be used with git git or without them and is compatible with CSS methodologies like BEM, SMACSS or OOCSS.
 One of the key principles of ITCSS is that it separates your CSS codebase to several sections (called layers), which take form of the inverted triangle:
 ![inverted triangle](https://other.media/wp-content/uploads/2017/01/itcss_2.png)
 Those layers are as follows:
