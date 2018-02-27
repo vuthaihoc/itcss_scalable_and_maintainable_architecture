@@ -2,11 +2,12 @@
 # Bài viết mẫu: [https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 Bản tiếng việt!!
 -------------------------------------
-## ITCSS: Bảo trì và mở rộng kiến trúc css 
+## ITCSS: ~~Bảo trì và mở rộng kiến trúc css~~ * Kiến trúc CSS có thể mở rộng và bảo trì * 
 viết bởi Lubos Kmetko ngày 10 tháng 2, 2016 
 ### Tôi phải làm sao để duy trì và mở rông Css của mình? Đây là điều mà các lập trình viên front-end luôn quan tâm. ITCSS có 1 câu trả lời cho vấn đề này.
 
-Năm ngoái, khi chúng tôi bắt đầu dự án [HEROized](https://www.heroized.com/), thiết kế lại và làm mới 1 số phần của trang web [Xfive.co], chúng tôi tìm kiếm 1 kiến trúc CSS có khả năng phát triển dễ dàng và có thể bảo trì về sau.
+~~Năm ngoái, khi chúng tôi bắt đầu dự án [HEROized](https://www.heroized.com/), thiết kế lại và làm mới 1 số phần của trang web [Xfive.co], chúng tôi tìm kiếm 1 kiến trúc CSS có khả năng phát triển dễ dàng và có thể bảo trì về sau.~~
+
 
 [CSS Modules](http://www.sitepoint.com/understanding-css-modules-methodology/) là một cái gì đó mới và khá kì lạ lúc bấy giờ, và chúng tôi đã lưu ý về [Thiết kế phân tử](http://patternlab.io/) đại loại như một phân tử hoá học nhân tạo. Sau đó tôi tham gia hội thảo [Roberts’s](https://csswizardry.com/)  ITCSS vào tháng 6/2015, vấn đề của  [tạp chí mạng internet](https://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731) và ngay lập tức tôi tìm thấy giải pháp đơn giản, cách tiếp cận CSS thực tế nhất.
 
